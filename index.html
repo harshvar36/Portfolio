@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="faviconhar.ico">
+    <link rel="javascript" href="css.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Puddles&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshvardhan Singh</title>
+</head>
+<body>
+  <section id="home"></section>
+    <div class="Top-container">
+        <img class="sky" src="Portfolio\cloud.png" alt="Sky's image">
+        <nav>
+          <img class="logo" src="Portfolio\LOGO.png" alt="Logo">
+          <ul class="side-icons">
+            <li><a class="side-links" href="#home">Home</a></li>
+            <li><a class="side-links" href="#about">About</a></li>
+            <li><a class="side-links" href="#skills">Skills</a></li>
+            <li><a class="side-links" href="#contactme">Contact Me</a></li>
+          </ul>
+        </nav>
+        <h1>HEY  FELLAS!</h1>
+        <h2>Harshvardhan here!</h2>
+        <img class="sea" src="Portfolio\seashore.png" alt="Sea image">
+    </div>
+  <section id="about">
+    <div class="introduction">
+        <img class="Profilephoto" src="Portfolio\profile image.jpg" alt="Profile photo">
+        <h2 class="salutation">Harshvardhan Singh</h2>
+        <h3><a href="https://vit.ac.in/">Vellore Institute of Technology</a> </h3>
+        <p class="intro">
+          I am an enthusiastic, self-motivated, reliable, responsible and hard working person.This is my first website that I created, my first step towards Front-end Web Development.
+        </p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links active-link-2" onclick="opentab('hobbies')">Hobbies</p>
+        </div>
+        <div class="tab-contents active-1" id="education">
+          <table cellspacing="20">
+            <thead>
+                <th>Institutuion</th>
+                <th>Year</th>
+                <th>Classes</th>
+                <th>Place</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>St.Jesus Public School</td>
+                    <td>2007-2010</td>
+                    <td>Nursery-Kindergaten</td>
+                    <td>Gonda,Uttar Pradesh</td>
+                </tr>
+                <tr>
+                    <td>City Montessori School</td>
+                    <td>2010-2022</td>
+                    <td>1st-Intermediate</td>
+                    <td>Lucknow,Uttar Pradesh</td>
+                </tr>
+                <tr>
+                    <td>Vellore Institute of Technology</td>
+                    <td>2022-Present</td>
+                    <td>B.Tech</td>
+                    <td>Vellore, Tamil Nadu</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-contents" id="hobbies">
+          <ul>
+            <li>Playing outdoor games such as</li>
+            <ul>
+                <li><a href="https://www.the-aiff.com/">Football</a></li>
+                <li><a href="https://www.mumbaiindians.com/">Cricket</a></li>
+            </ul>
+            <li>Reading books</li>
+            <li>Gymming</li>
+            <li>Gaming </li>
+        </ul>
+        </div>
+    </div>
+  </section>
+    <hr>
+  <section id="skills">
+    <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill" src="Portfolio\skills1.png" alt="skill img">
+          <h3>General Skills</h3>
+          <p> 
+            <table cellspacing="20">
+              <tr>
+                <td>Studies</td>
+                <td>⭐⭐⭐</td>
+                <td>Driving</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Group Coordination</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Coding</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>Public Speaking</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+            </table>
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="skill" src="Portfolio\skills2.png" alt="skill img">
+          <h3>Qualities</h3>
+          <p>
+            I am able to handle multiple tasks on a daily basis and use a creative approach to problem solving.I am a dependable person who is great at time management and is always energetic and eager to learn new skills.
+          </p>
+        </div>
+    </div>
+  </section>
+      <hr>
+  <section id="contactme">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>“Whatever you are, be a good one.”</h3>
+        <p>You can get in touch with me by reaching out to me on my various social media handles that I have provided.</p>
+      </div>
+    </div>
+    <br>
+  </section> 
+    <div class="bottom-container">
+        <a class="btn" href="mailto:harshva36@gmail.com"><img class="footer-img" src="Portfolio\email.png" alt="Contact Me"></a>
+        <a class="footer-link" href="https://www.linkedin.com/in/harshvardhan-singh-b66728250"><img class="footer-img" src="Portfolio\linkedin-logotype.png" alt="Linked-in"></a>
+        <a class="footer-link" href="https://github.com/harshvar36"><img class="footer-img" src="Portfolio\github.png" alt="Github"></a>
+        <a class="footer-link" href="https://instagram.com/harshvar_0036?igshid=NGExMmI2YTkyZg=="><img class="footer-img" src="Portfolio\instagram.png" alt="Instagram"></a>
+        <p class="copyright">© 2023 Harshvardhan Singh</p>
+    </div>
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-1");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-1");
+      }
+      const li=document.querySelectorAll("side-links");
+      const sec=document.querySelectorAll("section");
+      function activeMenu(){
+        let len=sec.length;
+        while(--len && window.scrollY + 97 < sec[len].offsetTop){}
+        li.forEach(ltx => ltx.classList.remove("active"));
+        li[len].classList.add("active");
+      }
+      activeMenu();
+      window.addEventListener("scroll",activeMenu);
+    </script>
+</body>
+</html>
